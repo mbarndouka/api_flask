@@ -119,5 +119,5 @@ def predict_price():
     return jsonify({"predicted_price": prediction})
 
 # Run the Flask application
-if __name__ == "__main__":
-    app.run()
+# if __name__ == "__main__":
+#     app.run()
